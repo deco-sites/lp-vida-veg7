@@ -1,0 +1,43 @@
+{
+  "seo": {
+    "type": "website",
+    "title": "Vida veg",
+    "jsonLDs": [],
+    "noIndexing": false,
+    "description": "Vida Veg – Sabor, Saúde e um Mundo Melhor",
+    "titleTemplate": "Vida Veg ",
+    "descriptionTemplate": "%s | Vida Veg ",
+    "favicon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/90ebe41b-472f-484d-b537-91ed51a29830/svgexport-1-(1).svg",
+    "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/90ebe41b-472f-484d-b537-91ed51a29830/fav-icon.svg"
+  },
+  "global": [
+    {
+      "__resolveType": "htmx/sections/htmx.tsx"
+    }
+  ],
+  "routes": [
+    {
+      "__resolveType": "website/loaders/pages.ts"
+    },
+    {
+      "__resolveType": "website/loaders/redirects.ts"
+    }
+  ],
+  "caching": {
+    "directives": []
+  },
+  "__resolveType": "site/apps/site.ts",
+  "firstByteThresholdMS": false,
+  "theme": {
+    "__resolveType": "Neutral"
+  },
+  "abTesting": {
+    "replaces": [],
+    "includeScriptsToHead": {
+      "includes": []
+    }
+  },
+  "flavor": {
+    "framework": "fresh"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "__resolveType": "site/sections/Theme/Theme.tsx",
+  "buttonStyle": {
+    "--border-btn": "1px",
+    "--rounded-btn": "2rem",
+    "--btn-focus-scale": "0.95",
+    "--animation-btn": "0.25s"
+  },
+  "colorScheme": "any",
+  "otherStyles": {
+    "--rounded-badge": "1.9rem",
+    "--animation-input": "0.2s",
+    "--tab-border": "1px",
+    "--tab-radius": "0.5rem",
+    "--rounded-box": "1.25rem"
+  },
+  "mainColors": {
+    "base-100": "#ffffff",
+    "primary": "#00754A",
+    "secondary": "#154734",
+    "tertiary": "#404040",
+    "neutral": "#000000",
+    "success": "#7E7E7E",
+    "warning": "#DF1683",
+    "error": "#D50037",
+    "info": "#E65300"
+  },
+  "font": {
+    "__resolveType": "website/loaders/fonts/googleFonts.ts",
+    "fonts": [
+      {
+        "variations": [],
+        "family": "Inter"
+      }
+    ]
+  },
+  "mode": "light",
+  "complementaryColors": {
+    "base-200": "#F5F5F5",
+    "base-300": "#CCCCCC",
+    "base-content": "#154734",
+    "primary-content": "#A1C342 ",
+    "secondary-content": "#E0D0A6",
+    "tertiary-content": "#A1C342"
+  }
+}

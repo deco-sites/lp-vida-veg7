@@ -1,0 +1,132 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+
+  /* Allow changing font family via CMS */
+  html {
+    font-family: var(--font-family);
+  }
+
+  /** Remove default styles from input[type=number] */
+  input[type=number]::-webkit-inner-spin-button,
+  input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  input[type=number] {
+    -moz-appearance: textfield;
+    appearance: textfield;
+  }
+
+  
+
+  .container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+    max-width: 100%;
+
+    @screen lg {
+      padding: 0 30px;
+      max-width: 1360px;
+    }
+  }
+}
+
+@layer components {
+
+  /** Prevent scroll when modal is open */
+  .no-scroll {
+    overflow: hidden;
+    height: 100vh;
+  }
+
+  [data-dot].current div .dot {
+    background-color: black;
+  }
+  [data-dot] div .dot {
+    background-color: #E4E4E7;
+  }
+}
+
+@layer utilities {
+
+  /** Remove scrollbar from overflow-auto */
+  .scrollbar-none {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+
+  .scrollbar-none::-webkit-scrollbar {
+    display: none;
+  }
+}
+.text-5xl{
+  font-size: 40px;
+}
+
+.rounded-large{
+  border-radius: 30px;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #194735; 
+  border-radius: 10px;
+}
+
+.fluid-text p {
+  margin: 12px 0;
+}
+
+.fluid-text mark {
+  padding: 3px 12px;
+  border-radius: 9999px;
+}
+
+#lp-catalogo-77ca60e403b927764877 {
+  padding: 32px 0 0;
+}
+
+#lp-catalogo-77ca60e403b927764877 [id^="bricks-component-"] {
+  width: 100% !important;
+}
+
+#lp-catalogo-77ca60e403b927764877 [id^="bricks-component-"] .bricks--column > div {
+  padding: 0 !important;
+  background: transparent !important;
+}
+
+#conversion-form-lp-catalogo * {
+  font-family: "Inter", sans-serif !important;
+}
+
+.bricks-form {
+  padding: 0 !important;
+}
+
+.bricks-form__fieldset {
+  margin: 0 !important;
+}
+
+input.bricks-form__input {
+  padding: 0 16px !important;
+}
+
+#lp-newsletter-e6eaf7a1b13a5227ed21 input.bricks-form__input::placeholder {
+  color: #fff;
+}

@@ -1,0 +1,61 @@
+{
+  "__resolveType": "site/sections/Footer.tsx",
+  "links": [],
+  "bottomLinks": [],
+  "social": [
+    {
+      "network": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/a74c8854-6c51-491a-a9d6-55a0702bca0e/bg-linkedin.svg",
+      "href": "/",
+      "label": "Linkedin"
+    },
+    {
+      "network": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/14097c10-16a5-40a9-a5d6-cfe429e6b1f6/bg-face.png",
+      "href": "/",
+      "label": "Facebook"
+    },
+    {
+      "network": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/5c7bc8d3-10a6-46eb-880d-104ac3d59324/bg-youtube.svg",
+      "href": "/",
+      "label": "Youtube"
+    },
+    {
+      "network": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/98c711c7-8651-4b7a-8381-7e75e354fb6a/bg-insta.svg",
+      "href": "/",
+      "label": "Instagram"
+    },
+    {
+      "network": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/e76456d5-608f-4ff7-870d-ece508726e6b/bg-twitter.svg",
+      "href": "/",
+      "label": "Twitter - X"
+    }
+  ],
+  "subscribe": {
+    "title": "<p><strong><span style=\"color: rgb(255, 255, 255)\">Receba as </span></strong><span style=\"color: rgb(161, 195, 66)\">novidades da Vida Veg</span><strong><span style=\"color: rgb(255, 255, 255)\">!</span></strong></p>"
+  },
+  "seals": [
+    {
+      "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/0ad2e17b-48e7-487a-b9ea-5ac655cba2af/EuReciclo-1-3c42004f-1.svg",
+      "alt": "Eu Reciclo"
+    },
+    {
+      "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/c34d0dca-15f5-4dd1-a031-ff6e4f382cbe/ProdutoVegano-eb5ff098-1.svg",
+      "alt": "Produto Vegano"
+    },
+    {
+      "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/5c51d04f-09cb-4c35-8f7c-460c8cfa6a33/LKB-ece7f7a9-1.svg",
+      "alt": "LKB"
+    },
+    {
+      "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/bce0c8d6-b645-4e5d-8cb1-642481bce178/Design-sem-nome-1-1-c038204d-1.svg",
+      "alt": "BDK"
+    }
+  ],
+  "madeWith": {
+    "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/4f8bdc48-ea46-4ffb-a63e-0af96f691891/Group-697.svg",
+    "label": "by: "
+  },
+  "copyright": "© 2024 Vida Veg. Todos os Direitos Reservados",
+  "logo": {
+    "src": "https://data.decoassets.com/lp-vida-veg/25984b16-e82d-4fca-91fd-934dfbbe6ba4/logo-chef.png"
+  }
+}
